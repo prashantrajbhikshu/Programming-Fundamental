@@ -4,11 +4,11 @@
 
 void main(){
 	float a,b,c,d,e,f,r1,r2;
-	printf("\nEnter varaiable of x^2: ");
+	printf("\nEnter coefficient of x^2: ");
 	scanf("%f",&a);
-	printf("\nEnter varaiable of x^1: ");
+	printf("\nEnter coefficient of x^1: ");
 	scanf("%f",&b);
-	printf("\nEnter varaiable of x^0: ");
+	printf("\nEnter coefficient of x^0: ");
 	scanf("%f",&c);
 	d=pow(b,2)-4*a*c;
 	printf("discriminant %f",d);
